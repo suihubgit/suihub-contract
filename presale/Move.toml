@@ -1,0 +1,12 @@
+[package]
+name = "presale"
+version = "0.0.1"
+
+[dependencies]
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework/packages/sui-framework", rev = "main" }
+
+[addresses]
+presale =  "0x143c5b42f7d6fcbedef6351b329034533cb165cee0e68ceff252500be45d0636"
+sui = "0x2"
+
+beneficiary = "0x0631d94f22ff532ba169402aa567092c9e57d6117aef2750bb56c0f4356c848b"

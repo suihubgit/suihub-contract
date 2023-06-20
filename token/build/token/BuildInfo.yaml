@@ -1,0 +1,23 @@
+---
+compiled_package_info:
+  package_name: token
+  address_alias_instantiation:
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    token: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: CA36B5E3F15B0EB72A35409A3ED73247CA8E0B9128CD1ABFA47D0B610CF677D4
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    generate_abis: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    additional_named_addresses: {}
+    architecture: ~
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+dependencies:
+  - MoveStdlib
+  - Sui
